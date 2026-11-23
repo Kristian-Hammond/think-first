@@ -20,6 +20,7 @@ import base64
 import json
 import os
 import re
+import ssl
 import sys
 import time
 import urllib.error
@@ -52,6 +53,28 @@ PORT = int(os.environ.get("PORT", "8000"))
 MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 API_KEY = os.environ.get("OPENAI_API_KEY", "").strip()
 MOCK = os.environ.get("MOCK", "").lower() in ("1", "true", "yes") or not API_KEY
+
+
+def _ssl_context():
+    """Certificates for HTTPS calls to OpenAI.
+
+    Python from python.org on macOS ships without trusted certificates until its
+    "Install Certificates" script is run, which makes every call fail with
+    CERTIFICATE_VERIFY_FAILED. Use certifi if it's installed, otherwise fall back to
+    the certificate bundle macOS itself provides.
+    """
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except Exception:
+        pass
+    ctx = ssl.create_default_context()
+    if not ctx.get_ca_certs() and os.path.exists("/etc/ssl/cert.pem"):
+        ctx = ssl.create_default_context(cafile="/etc/ssl/cert.pem")
+    return ctx
+
+
+SSL_CONTEXT = _ssl_context()
 NAME_RE = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 MOCK_CALLS = {}  # how many times each sequenced mock has been used
 
@@ -64,7 +87,7 @@ def openai_chat(body: dict, timeout: int = 120) -> str:
         headers={"Content-Type": "application/json", "Authorization": f"Bearer {API_KEY}"},
     )
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as resp:
             data = json.load(resp)
     except urllib.error.HTTPError as e:
         detail = e.read().decode("utf-8", "replace")
