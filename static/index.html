@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Think-First Workbench</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-title">Think-First</div>
+      <div class="brand-sub">Workbench</div>
+    </div>
+    <div class="nav-label" id="nav-label">Interventions</div>
+    <nav id="nav" aria-labelledby="nav-label"></nav>
+    <div class="sidebar-foot" id="status">Checking server…</div>
+  </aside>
+
+  <main id="main"></main>
+
+  <!-- Framework -->
+  <script src="app.js"></script>
+  <!-- Interactions: add one script per interaction -->
+  <script src="interactions/whats-your-problem.js"></script>
+  <script src="interactions/first-draft.js"></script>
+  <script src="interactions/critique.js"></script>
+  <script src="interactions/dimensions.js"></script>
+  <script src="interactions/know-your-materials.js"></script>
+  <script src="interactions/explain-the-answer.js"></script>
+  <script src="interactions/spot-the-flaw.js"></script>
+  <script src="interactions/pre-mortem.js"></script>
+  <script src="interactions/devils-advocate.js"></script>
+  <script src="interactions/assumptions-audit.js"></script>
+  <script src="interactions/options-first.js"></script>
+  <script src="interactions/predict-and-compare.js"></script>
+  <script src="interactions/client-rehearsal.js"></script>
+  <script src="interactions/say-it-simply.js"></script>
+  <!-- Start after all interactions have registered -->
+  <script>App.start();</script>
+</body>
+</html>

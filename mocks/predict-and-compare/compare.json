@@ -1,0 +1,8 @@
+{
+  "results": [
+    { "id": "cost", "best": 350, "low": 200, "high": 600, "reasoning": "[Sample] Three integrations at roughly $60–80k each, plus a data platform license and around four months of a small internal team.", "drivers": ["Number of systems integrated", "Whether reports are rebuilt or migrated", "Internal staff time"], "on_your_reasoning": "You allowed for licenses and integration but not for internal staff time, which is usually a third of the cost. Your range is narrow for a project with this much uncertainty." },
+    { "id": "time", "best": 6, "low": 4, "high": 10, "reasoning": "Agreeing definitions typically takes 4–8 weeks; integration and testing another 3–5 months.", "drivers": ["How quickly definitions are agreed", "Data quality in the source systems"], "on_your_reasoning": "Sound – you included the definitions step that most people forget." },
+    { "id": "effort", "best": 120, "low": 60, "high": 200, "reasoning": "Roughly three analysts spending one to two days a month each, plus senior review time before board meetings.", "drivers": ["Number of people involved", "Board meeting frequency"], "on_your_reasoning": "Your estimate covers analysts but not the senior review time before each board meeting." }
+  ],
+  "note": "[Sample] You tend to be optimistic on cost and to give narrow ranges. Widen your ranges when several uncertain steps stack up."
+}

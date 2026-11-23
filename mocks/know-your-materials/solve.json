@@ -1,0 +1,68 @@
+{
+  "solution": {
+    "summary": "[Sample response] Start with the Finance operations team, where the complaints are concentrated, and deliver a trusted board pack by the end of Q2 within the approved budget. Use that early success, sponsored by the CFO, to make the case for a wider platform next year.",
+    "steps": [
+      {
+        "text": "Run a two-week review with Finance operations to agree the metrics behind the board pack.",
+        "facts": [
+          "F2"
+        ]
+      },
+      {
+        "text": "Build the board pack on a single reconciled data set, aiming to finish before the end of Q2.",
+        "facts": [
+          "F5"
+        ]
+      },
+      {
+        "text": "Keep phase one within the approved $400,000 budget by deferring the platform rebuild.",
+        "facts": [
+          "F3"
+        ]
+      },
+      {
+        "text": "Report progress to the CFO monthly, framed around the growth target.",
+        "facts": [
+          "F1",
+          "F4"
+        ]
+      }
+    ]
+  },
+  "facts": [
+    {
+      "id": "F1",
+      "fact": "The company targets 12% annual revenue growth for three years.",
+      "doc": "D1",
+      "quote": "We are targeting 12% annual revenue growth over the next three years."
+    },
+    {
+      "id": "F2",
+      "fact": "Most reporting complaints come from Finance operations.",
+      "doc": "D1",
+      "quote": "Most reporting complaints come from the Finance operations team."
+    },
+    {
+      "id": "F3",
+      "fact": "$400,000 has been approved for analytics this year.",
+      "doc": "D1",
+      "quote": "An analytics budget of $400,000 has been approved for this year."
+    },
+    {
+      "id": "F4",
+      "fact": "The CFO sponsors the data program.",
+      "doc": "D1",
+      "quote": "The CFO will act as executive sponsor for the data program."
+    },
+    {
+      "id": "F5",
+      "fact": "The first board pack is due by the end of Q2.",
+      "doc": "D1",
+      "quote": "The first board reporting pack is due by the end of Q2."
+    }
+  ],
+  "gaps": [
+    "How far apart the figures in the three systems actually are.",
+    "Whether the internal IT team has capacity to support the work."
+  ]
+}

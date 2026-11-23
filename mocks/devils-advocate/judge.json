@@ -1,0 +1,11 @@
+{
+  "_sequence_note": "Sample mode returns these in turn: objection 1 fails then holds; 2 holds; 3 partly (then the user may strengthen or move on); 4 holds.",
+  "_sequence": [
+    { "verdict": "fails", "explanation": "[Sample] You restated the plan rather than explaining why agreement is achievable this time.", "pushback": "Saying 'we'll facilitate it well' is what the last consultants said. What's different?", "tip": "Point to a specific lever – a sponsor's mandate, a deadline, or a decision rule for disagreements." },
+    { "verdict": "holds", "explanation": "[Sample] Tying the workshop to the CFO's mandate and a tie-break rule answers the concern directly.", "pushback": "", "tip": "" },
+    { "verdict": "holds", "explanation": "[Sample] Clear funding source and a phased budget with a gate – convincing.", "pushback": "", "tip": "" },
+    { "verdict": "partly", "explanation": "[Sample] Training helps, but nothing stops the spreadsheets from continuing.", "pushback": "Training is nice. But on day one, what does a manager lose if they keep their old spreadsheet?", "tip": "Think about a hard switch-off date or making the new report the only one used in the monthly review." },
+    { "verdict": "holds", "explanation": "[Sample] Retiring the old spreadsheets at a set date closes the gap.", "pushback": "", "tip": "" },
+    { "verdict": "holds", "explanation": "[Sample] Good – you explained why a single store is needed once more than one system feeds the board pack.", "pushback": "", "tip": "" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "reviews": [
+    { "id": "u1", "verdict": "strong", "comment": "[Sample] Asking each department head for sign-off on draft definitions before kickoff is a real test.", "evidence": ["Written sign-off from each department head on draft definitions", "Minutes from previous attempts to agree metrics"] },
+    { "id": "h1", "verdict": "weak", "comment": "“Check with IT” won't reveal data quality problems. Profile a sample of the actual data.", "evidence": ["A profile of one month's data from each system: missing values, duplicates, mismatches", "The number of manual adjustments made to last quarter's board figures"] },
+    { "id": "h2", "verdict": "partial", "comment": "Good to ask the CIO, but get a named person and dates, not a general yes.", "evidence": ["IT's project roadmap for next quarter", "A named integration lead with confirmed availability"] }
+  ],
+  "overall": "[Sample] The agreement risk is well covered. Data quality is the most dangerous assumption and your check wouldn't test it – fix that before relying on the timeline."
+}

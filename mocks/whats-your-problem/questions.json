@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "id": "company_size",
+      "question": "How large is the client company?",
+      "why": "Size shapes how much change the organization can absorb and what kind of team it needs.",
+      "options": ["Under 50 employees", "50-500", "500-5,000", "Over 5,000"]
+    },
+    {
+      "id": "existing_client",
+      "question": "Are they an existing client of ours?",
+      "why": "An existing relationship changes how much trust and context we can draw on.",
+      "options": ["Yes, active", "Former client", "No, new prospect"]
+    },
+    {
+      "id": "past_work",
+      "question": "What work, if any, have we done for them before?",
+      "why": "Past engagements tell us what they valued and what we already know about their environment.",
+      "options": []
+    },
+    {
+      "id": "budget",
+      "question": "What budget range is realistic for this?",
+      "why": "Budget decides whether we propose a phased approach or a full program.",
+      "options": ["Under $50k", "$50k-$250k", "$250k-$1M", "Over $1M", "Unknown"]
+    },
+    {
+      "id": "timeline",
+      "question": "What is the timetable, and are there any hard deadlines?",
+      "why": "A fixed deadline often matters more to the approach than the budget does.",
+      "options": ["Under 3 months", "3-6 months", "6-12 months", "No fixed deadline"]
+    },
+    {
+      "id": "decision_maker",
+      "question": "Who is the decision maker, and who else needs to be on board?",
+      "why": "The right solution has to be one the people who decide will actually back.",
+      "options": []
+    },
+    {
+      "id": "success",
+      "question": "What would success look like to the client a year from now?",
+      "why": "A clear picture of success keeps the solution aimed at the outcome rather than the activity.",
+      "options": []
+    }
+  ]
+}

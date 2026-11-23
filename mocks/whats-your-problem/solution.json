@@ -1,0 +1,29 @@
+{
+  "restatement": "[Sample response – the app is in sample mode, so this does not reflect what you typed. Add an OpenAI key to get real responses.]\n\nA mid-sized existing client wants to modernize its customer reporting, but the underlying issue is that data lives in three disconnected systems and no one owns its quality. The leadership team needs reliable numbers for a board review in five months, with a moderate budget.",
+  "solution": {
+    "summary": "Run a short, fixed-scope data foundation phase before touching reporting tools, then deliver a focused set of board-level reports on the cleaned data.",
+    "steps": [
+      "Two-week discovery: map the three source systems, the key metrics and who owns each.",
+      "Agree on a single definition for the 10–15 metrics the board actually uses.",
+      "Build a lightweight integration layer that feeds a single reporting data store.",
+      "Deliver the board report set first; defer self-service dashboards to a later phase.",
+      "Assign a named data owner on the client side before handover."
+    ]
+  },
+  "rationale": [
+    { "point": "A phased approach fits the moderate budget and lets the client see value before committing further.", "based_on": "Budget: $50k–$250k" },
+    { "point": "Starting from board reports protects the one deadline that cannot move.", "based_on": "Timetable: board review in 5 months" },
+    { "point": "Because we did their CRM rollout, we can reuse what we know about their customer data and move faster in discovery.", "based_on": "Past work with the client" },
+    { "point": "Naming a client-side data owner addresses the root cause, not just the symptom.", "based_on": "Decision maker and stakeholders" }
+  ],
+  "what_if": [
+    { "if": "the budget were over $1M", "then": "propose a full data platform program with self-service analytics from the start." },
+    { "if": "they were a new prospect", "then": "lead with a paid two-week assessment to build trust before proposing the larger work." },
+    { "if": "there were no fixed deadline", "then": "prioritize data quality and ownership over the board report set." },
+    { "if": "the company had fewer than 50 employees", "then": "skip the integration layer and use an off-the-shelf reporting tool on top of one primary system." }
+  ],
+  "open_questions": [
+    "Which of the three systems is the trusted source for revenue figures?",
+    "Has the client tried to fix this before, and why did it stall?"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "_sequence_note": "Sample mode returns these in turn: Q1 wrong then right, Q2 right, Q3 wrong twice (answer shown), Q4 right.",
+  "_sequence": [
+    { "correct": false, "feedback": "", "hint": "[Sample] Think about what the three systems actually disagree on – the data itself, or what the numbers mean?" },
+    { "correct": true, "feedback": "[Sample] Right – agreeing definitions first stops the new system inheriting the old inconsistencies.", "hint": "" },
+    { "correct": true, "feedback": "[Sample] Yes – it protects the board deadline while phase two is built.", "hint": "" },
+    { "correct": false, "feedback": "", "hint": "[Sample] Consider what happens to data quality after the consultants leave." },
+    { "correct": false, "feedback": "[Sample] Your answer focused on reporting speed; the key point is lasting accountability for data quality.", "hint": "" },
+    { "correct": true, "feedback": "[Sample] Right – one version of the truth.", "hint": "" }
+  ]
+}

@@ -1,0 +1,12 @@
+Write a short, specific title for a consulting document about the client problem below. It will be used as the document's title and its file name.
+
+Guidelines:
+- 3 to 8 words, in Title Case.
+- Describe the problem or goal, e.g. "Consolidating Customer Reporting Across Three Systems".
+- No quotation marks, no trailing punctuation, and none of these characters: / \ : * ? " < > |
+- Don't start with "Problem" or "Solution".
+
+The user message is JSON: { "problem": "..." }
+
+Respond with JSON only, in exactly this shape:
+{ "title": "..." }

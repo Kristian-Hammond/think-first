@@ -1,0 +1,15 @@
+{
+  "summary": "[Sample response – sample mode is on, so this ignores what you typed.] Treat this as a data ownership problem first and a reporting problem second. Agree on the handful of numbers leadership relies on, fix where they come from, then build reports on top.",
+  "steps": [
+    "Interview the five to eight people who use the reports most to find the numbers that matter.",
+    "Map which system each of those numbers comes from and where they conflict.",
+    "Agree on one definition per metric and a named owner for each.",
+    "Build a single reporting data store fed from the source systems.",
+    "Deliver a small set of leadership reports, then expand."
+  ],
+  "assumptions": [
+    "Mid-sized company with a moderate budget",
+    "No hard deadline in the next three months",
+    "Leadership is willing to name data owners"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "sources": [
+    {
+      "name": "[Sample] Fix the process, not the tech",
+      "prompt": "What would change if each number had one owner and one definition, with no new system at all?"
+    },
+    {
+      "name": "Buy or outsource",
+      "prompt": "Who already does this reporting for companies like this one, and what would handing it over look like?"
+    },
+    {
+      "name": "Build something new",
+      "prompt": "If you were designing the reporting from scratch, what would it look like?"
+    },
+    {
+      "name": "Consolidate or simplify",
+      "prompt": "Does the company really need three systems producing these numbers?"
+    },
+    {
+      "name": "Reframe the problem",
+      "prompt": "Is the real problem the reports, or the decisions people are trying to make with them?"
+    }
+  ],
+  "viewpoints": [
+    {
+      "who": "The CFO",
+      "cares_about": "cost, control and audit-ready numbers"
+    },
+    {
+      "who": "Department heads",
+      "cares_about": "keeping control of their own data"
+    },
+    {
+      "who": "The board",
+      "cares_about": "one set of figures they can trust"
+    },
+    {
+      "who": "The IT team",
+      "cares_about": "workload and keeping systems stable"
+    }
+  ]
+}

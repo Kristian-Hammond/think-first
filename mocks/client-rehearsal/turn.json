@@ -1,0 +1,9 @@
+{
+  "_sequence_note": "Sample mode: the stakeholder replies in turn and ends the meeting on the fourth reply.",
+  "_sequence": [
+    { "reply": "[Sample] I've heard 'single source of truth' before. What will this cost, and what do I get before the next board meeting?", "ended": false },
+    { "reply": "Fine, but my teams already spend days reconciling. Who does the extra work while you build this?", "ended": false },
+    { "reply": "And when the department heads disagree on a definition – which they will – who decides?", "ended": false },
+    { "reply": "If I have the final say on definitions and the cost is capped, I can take this to the board. Send me the phased plan by Friday.", "ended": true }
+  ]
+}

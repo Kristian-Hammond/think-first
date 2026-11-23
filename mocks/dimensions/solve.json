@@ -1,0 +1,21 @@
+{
+  "solution": {
+    "summary": "[Sample response] Run a fast, focused effort aimed at the board deadline: get the three department heads to agree on a short list of board metrics, reconcile those numbers manually where needed, and present them from one controlled report. Build the longer-term data platform as a second phase.",
+    "steps": [
+      "Hold a working session with the three department heads to agree on the 10–15 board metrics and their definitions.",
+      "Measure the gap between the systems for each metric and pick a system of record for each.",
+      "Produce the board pack from a single controlled spreadsheet or report, with a documented reconciliation.",
+      "Assign a named owner for each metric before the board review.",
+      "After the review, scope phase two: an integrated reporting data store."
+    ]
+  },
+  "rationale": [
+    { "dimension": "Stakeholder Interests", "reasoning": "Starting with a joint session gives each department a say in the definitions, so no one feels their numbers were overruled." },
+    { "dimension": "Speed to Solution", "reasoning": "A manual reconciliation of a short metric list can be done well before the board review; a full integration could not." }
+  ],
+  "set_aside": [
+    { "dimension": "Data and Uncertainty", "effect": "The plan assumes the discrepancies are small enough to reconcile by hand; if they're large, the timeline is at risk." },
+    { "dimension": "Implementation Feasibility", "effect": "The plan doesn't check whether the client's IT team can support phase two." },
+    { "dimension": "Short-Term vs. Long-Term Impact", "effect": "The manual board pack may be thrown away once phase two is built." }
+  ]
+}

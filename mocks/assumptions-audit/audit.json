@@ -1,0 +1,13 @@
+{
+  "rated": [
+    { "index": 0, "confidence": "Low", "importance": "High", "reason": "[Sample] Nothing in the problem suggests the department heads are ready to agree." },
+    { "index": 1, "confidence": "High", "importance": "Medium", "reason": "The analytics budget is already approved." },
+    { "index": 2, "confidence": "Medium", "importance": "Low", "reason": "Helpful but not critical; reports could be rebuilt in stages." }
+  ],
+  "hidden": [
+    { "text": "The source systems can export clean, complete data.", "where": "Step 2 – building the data store", "confidence": "Low", "importance": "High", "reason": "[Sample] No data profiling has been done, and conflicting numbers suggest quality problems." },
+    { "text": "The client's IT team has capacity to support the integration in the next quarter.", "where": "Step 2 – building the data store", "confidence": "Medium", "importance": "High", "reason": "The problem doesn't say what else IT is working on." },
+    { "text": "Board members will accept a change in how familiar figures are calculated.", "where": "Step 3 – rebuilding board reports", "confidence": "Medium", "importance": "Medium", "reason": "Changing definitions can make historical figures look different." }
+  ],
+  "note": "[Sample] Your assumptions are about agreement and budget. The hidden ones are mostly about data and the client's capacity – the practical side of delivery."
+}

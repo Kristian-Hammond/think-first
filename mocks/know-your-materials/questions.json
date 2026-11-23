@@ -1,0 +1,9 @@
+{
+  "questions": [
+    { "id": "q1", "question": "[Sample question – sample mode ignores your documents.] What revenue growth target has the company set for the next three years?", "doc": "D1", "why": "sets the ambition the solution must support" },
+    { "id": "q2", "question": "Which business unit is described as the main source of reporting complaints?", "doc": "D1", "why": "shows where to start" },
+    { "id": "q3", "question": "What budget has been approved for data and analytics this year?", "doc": "D1", "why": "limits the scope" },
+    { "id": "q4", "question": "Who is named as the executive sponsor for the data program?", "doc": "D1", "why": "identifies the decision maker" },
+    { "id": "q5", "question": "What deadline is given for the first board-level reporting pack?", "doc": "D1", "why": "fixes the timeline" }
+  ]
+}

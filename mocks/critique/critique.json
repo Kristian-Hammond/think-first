@@ -1,0 +1,30 @@
+{
+  "overall": "[Sample response – sample mode is on, so this ignores what you typed.] The solution moves quickly to visible results, which the client will value, but it treats a data ownership problem as a tooling problem. Without agreed definitions and owners, the new dashboards are likely to show the same conflicting numbers.",
+  "strengths": [
+    "A clear, short timeline that will keep the sponsor engaged.",
+    "Sensible choice to deliver dashboards in phases."
+  ],
+  "points": [
+    {
+      "id": "p1",
+      "title": "Agree on metric definitions first",
+      "severity": "major",
+      "issue": "The plan connects systems before agreeing what each metric means, so conflicting definitions will carry over into the new dashboards.",
+      "suggestion": "Add a first step to agree one definition for each key metric with the report users."
+    },
+    {
+      "id": "p2",
+      "title": "Name data owners",
+      "severity": "major",
+      "issue": "No one is responsible for data quality after the project, so problems will return.",
+      "suggestion": "Add a named client-side owner for each key metric before go-live."
+    },
+    {
+      "id": "p3",
+      "title": "Define success measures",
+      "severity": "minor",
+      "issue": "There's no way to tell whether the project worked.",
+      "suggestion": "Add two or three measurable outcomes, such as fewer disputes over report figures each month."
+    }
+  ]
+}

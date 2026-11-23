@@ -1,0 +1,13 @@
+{
+  "scores": {
+    "o1": { "cost": 2, "speed": 2, "durability": 4, "acceptance": 3 },
+    "o2": { "cost": 5, "speed": 4, "durability": 3, "acceptance": 2 },
+    "o3": { "cost": 3, "speed": 4, "durability": 2, "acceptance": 3 },
+    "o4": { "cost": 2, "speed": 1, "durability": 5, "acceptance": 1 }
+  },
+  "gaps": [
+    { "option_id": "o1", "criterion_id": "speed", "explanation": "[Sample] Three integrations before any report is rebuilt means months before the board sees reliable numbers." },
+    { "option_id": "o4", "criterion_id": "acceptance", "explanation": "Retiring two departments' systems is likely to meet strong resistance from their heads." }
+  ],
+  "note": "[Sample] You scored the build option generously on speed. Your other scores were close to the AI's."
+}

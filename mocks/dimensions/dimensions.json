@@ -1,0 +1,34 @@
+{
+  "dimensions": [
+    {
+      "id": "stakeholders",
+      "name": "Stakeholder Interests",
+      "why_relevant": "[Sample response – sample mode ignores what you typed.] Three departments each own one of the systems and each trusts its own numbers, so any fix needs their buy-in.",
+      "key_question": "Who loses control or visibility if the numbers are consolidated?"
+    },
+    {
+      "id": "speed",
+      "name": "Speed to Solution",
+      "why_relevant": "Leadership needs reliable figures for the board review, which fixes the timeline.",
+      "key_question": "What is the latest date the board numbers must be trusted?"
+    },
+    {
+      "id": "data",
+      "name": "Data and Uncertainty",
+      "why_relevant": "No one yet knows how far apart the three systems' figures really are.",
+      "key_question": "How large are the discrepancies, and which system is closest to right?"
+    },
+    {
+      "id": "feasibility",
+      "name": "Implementation Feasibility",
+      "why_relevant": "The client's IT team is small and already stretched.",
+      "key_question": "Who on the client side can actually do the integration work?"
+    },
+    {
+      "id": "horizon",
+      "name": "Short-Term vs. Long-Term Impact",
+      "why_relevant": "A quick fix for the board could make the long-term data platform harder to build.",
+      "key_question": "Is the board deadline worth a solution that may be thrown away later?"
+    }
+  ]
+}

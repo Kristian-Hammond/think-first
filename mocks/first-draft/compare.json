@@ -1,0 +1,32 @@
+{
+  "overview": "[Sample response] Your solution starts with tools and moves quickly to delivery; the AI's starts with people and data definitions and delays tooling. Yours gets results faster; the AI's is more likely to fix the underlying cause.",
+  "common_ground": [
+    "Both aim for a single trusted set of leadership reports.",
+    "Both deliver in phases rather than all at once."
+  ],
+  "differences": [
+    {
+      "aspect": "Starting point",
+      "yours": "Selects a reporting tool in the first two weeks.",
+      "ai": "Interviews report users and agrees on metric definitions first.",
+      "why_it_matters": "Choosing a tool before agreeing on definitions risks rebuilding the same inconsistencies in a new place."
+    },
+    {
+      "aspect": "Ownership",
+      "yours": "Not addressed.",
+      "ai": "Names an owner for each metric.",
+      "why_it_matters": "Without owners, data quality tends to slip again after the project ends."
+    },
+    {
+      "aspect": "Speed to visible results",
+      "yours": "First dashboards in about six weeks.",
+      "ai": "No reports until the data store is built.",
+      "why_it_matters": "Early visible wins often matter for keeping sponsor support."
+    }
+  ],
+  "questions_to_consider": [
+    "How much does the client need an early visible win?",
+    "Is anyone on the client side ready to own the data?",
+    "Could you do definitions and a quick-win report in parallel?"
+  ]
+}

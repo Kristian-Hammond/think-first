@@ -1,0 +1,8 @@
+{
+  "name": "Dana",
+  "role": "Chief Financial Officer",
+  "cares_about": ["[Sample – sample mode ignores what you typed.] Numbers the board can trust", "Keeping costs within the approved budget", "Audit readiness"],
+  "concerns": ["Another IT project that runs over budget", "Departments resisting a single set of definitions", "Disruption at quarter-end close"],
+  "style": "Direct and numbers-driven; cuts off vague answers and asks for figures.",
+  "win_over": "A phased plan with a hard cost cap, a quick win before the next board meeting, and her final say on disputed definitions."
+}

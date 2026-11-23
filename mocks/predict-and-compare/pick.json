@@ -1,0 +1,7 @@
+{
+  "estimates": [
+    { "id": "cost", "name": "First-year cost of the fix", "unit": "$ thousands", "definition": "[Sample] Total external and internal cost to deliver reliable board reporting in the first 12 months.", "why": "Decides whether a phased approach is needed" },
+    { "id": "time", "name": "Time to trusted board numbers", "unit": "months", "definition": "Months from kickoff until the board receives a pack whose figures all departments accept.", "why": "Sets the plan against the board calendar" },
+    { "id": "effort", "name": "Manual reconciliation today", "unit": "hours per month", "definition": "Staff hours currently spent each month reconciling the three systems' figures.", "why": "Sizes the prize and the business case" }
+  ]
+}

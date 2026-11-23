@@ -1,0 +1,13 @@
+{
+  "outcome": "conditional",
+  "outcome_note": "[Sample] Dana will back it if the cost is capped and she has the final say on definitions.",
+  "overall": "[Sample] You won Dana over once you gave her control and a cap. Lead with those next time instead of the technology.",
+  "landed": ["Offering a quick win before the board meeting.", "Giving the CFO the final say on disputed definitions."],
+  "fell_flat": ["Your opening focused on the data platform, not on the board's trust in the numbers.", "You didn't give a cost figure until pressed."],
+  "dodged": [ { "question": "Who does the extra work while you build this?", "issue": "You said 'we'll manage it' without naming people or hours." } ],
+  "prepare": [
+    { "question": "What will this cost in total, and what's the cap?", "suggested_answer": "About $350k over two phases, capped at $400k, with a go/no-go after phase one." },
+    { "question": "Who does the extra work during the build?", "suggested_answer": "Two of our analysts take over reconciliation for three months, so your team's load doesn't increase." },
+    { "question": "What happens at quarter-end close?", "suggested_answer": "No changes go live in the two weeks around close; cutover is scheduled for mid-quarter." }
+  ]
+}

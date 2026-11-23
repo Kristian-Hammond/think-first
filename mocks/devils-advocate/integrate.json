@@ -1,0 +1,9 @@
+{
+  "revised_solution": "1. Agree definitions in a workshop chaired by the CFO, with the CFO deciding any definition the department heads can't agree on.\n2. Build a data store, funded from this year's analytics budget and released in two phases with a go/no-go gate.\n3. Rebuild board reports.\n4. Retire the old departmental spreadsheets on a set date, after which the new reports are the only ones used in the monthly review.",
+  "changes": [
+    { "challenger": "Skeptical engagement partner", "change": "[Sample] Step 1 now has the CFO chairing and deciding any disputed definition." },
+    { "challenger": "The client’s CFO", "change": "Step 2 now names the funding source and adds a phase gate." },
+    { "challenger": "Head of operations", "change": "A new step 4 retires the old spreadsheets on a set date." }
+  ],
+  "note": "[Sample] Your responses added a decision rule, a funding source with a gate, and a hard switch-off for old spreadsheets."
+}

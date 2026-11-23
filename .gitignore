@@ -1,0 +1,16 @@
+# Secrets: never commit your API key
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Downloaded Word files and other local output
+*.docx

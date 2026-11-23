@@ -1,0 +1,9 @@
+{
+  "reviews": [
+    { "id": "u1", "verdict": "strong", "comment": "[Sample] A joint definitions workshop with sign-off from each department addresses the real cause.", "suggestion": "" },
+    { "id": "a2", "verdict": "weak", "comment": "“Train users” is generic and doesn’t stop teams keeping their own spreadsheets.", "suggestion": "Retire the old spreadsheets on a set date and make the new reports the only source for the monthly review." },
+    { "id": "a1", "verdict": "partial", "comment": "Briefing a deputy helps, but there’s no trigger for when they take over.", "suggestion": "Name a co-sponsor now and have both sign off at each phase gate." },
+    { "id": "u2", "verdict": "partial", "comment": "A contingency is sensible, but no amount or approval route is given.", "suggestion": "Hold 10% contingency released only by the steering group." }
+  ],
+  "overall": "[Sample] Your mitigation for the biggest risk is strong, but adoption – the other high-high risk – is barely covered. Strengthen that before presenting the plan."
+}

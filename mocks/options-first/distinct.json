@@ -1,0 +1,13 @@
+{
+  "_sequence_note": "Sample mode: the first check flags option C as too similar to A; the second check passes.",
+  "_sequence": [
+    { "results": [
+      { "index": 0, "distinct": true, "overlaps_with": [], "comment": "[Sample] Build: a new central data store." },
+      { "index": 1, "distinct": true, "overlaps_with": [], "comment": "Process: fix definitions and ownership without new technology." },
+      { "index": 2, "distinct": false, "overlaps_with": [0], "comment": "This is option A done in phases. Consider a different route, e.g. buying rather than building, or changing who produces the reports." } ] },
+    { "results": [
+      { "index": 0, "distinct": true, "overlaps_with": [], "comment": "[Sample] Build: a new central data store." },
+      { "index": 1, "distinct": true, "overlaps_with": [], "comment": "Process: fix definitions and ownership without new technology." },
+      { "index": 2, "distinct": true, "overlaps_with": [], "comment": "Outsource: a managed reporting service." } ] }
+  ]
+}

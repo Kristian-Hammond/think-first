@@ -1,0 +1,117 @@
+{
+  "_sequence_note": "Sample mode returns these in turn: the first check finds three problems, the second fixes one, the third confirms the rest.",
+  "_sequence": [
+    {
+      "results": [
+        {
+          "question_id": "q1",
+          "assessment": "correct",
+          "feedback": "[Sample] Right – 12% a year for three years.",
+          "hint": "",
+          "source": {
+            "doc": "D1",
+            "quote": "We are targeting 12% annual revenue growth over the next three years."
+          }
+        },
+        {
+          "question_id": "q2",
+          "assessment": "partly",
+          "feedback": "",
+          "hint": "You have the right department, but look at which team within it the document names.",
+          "source": {
+            "doc": "D1",
+            "quote": "Most reporting complaints come from the Finance operations team."
+          }
+        },
+        {
+          "question_id": "q3",
+          "assessment": "missed",
+          "feedback": "",
+          "hint": "Look for the figure approved for this year specifically, not the multi-year plan.",
+          "source": {
+            "doc": "D1",
+            "quote": "An analytics budget of $400,000 has been approved for this year."
+          }
+        },
+        {
+          "question_id": "q4",
+          "assessment": "correct",
+          "feedback": "Right – the CFO is the sponsor.",
+          "hint": "",
+          "source": {
+            "doc": "D1",
+            "quote": "The CFO will act as executive sponsor for the data program."
+          }
+        },
+        {
+          "question_id": "q5",
+          "assessment": "missed",
+          "feedback": "",
+          "hint": "The deadline is given as a quarter, near the end of the plan's timeline section.",
+          "source": {
+            "doc": "D1",
+            "quote": "The first board reporting pack is due by the end of Q2."
+          }
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "question_id": "q2",
+          "assessment": "correct",
+          "feedback": "[Sample] Right – the Finance operations team.",
+          "hint": "",
+          "source": {
+            "doc": "D1",
+            "quote": "Most reporting complaints come from the Finance operations team."
+          }
+        },
+        {
+          "question_id": "q3",
+          "assessment": "missed",
+          "feedback": "",
+          "hint": "Look for the figure approved for this year specifically, not the multi-year plan.",
+          "source": {
+            "doc": "D1",
+            "quote": "An analytics budget of $400,000 has been approved for this year."
+          }
+        },
+        {
+          "question_id": "q5",
+          "assessment": "missed",
+          "feedback": "",
+          "hint": "The deadline is given as a quarter, near the end of the plan's timeline section.",
+          "source": {
+            "doc": "D1",
+            "quote": "The first board reporting pack is due by the end of Q2."
+          }
+        }
+      ]
+    },
+    {
+      "results": [
+        {
+          "question_id": "q3",
+          "assessment": "correct",
+          "feedback": "Right – $400,000 this year.",
+          "hint": "",
+          "source": {
+            "doc": "D1",
+            "quote": "An analytics budget of $400,000 has been approved for this year."
+          }
+        },
+        {
+          "question_id": "q5",
+          "assessment": "correct",
+          "feedback": "Right – the end of Q2.",
+          "hint": "",
+          "source": {
+            "doc": "D1",
+            "quote": "The first board reporting pack is due by the end of Q2."
+          }
+        }
+      ]
+    }
+  ]
+}

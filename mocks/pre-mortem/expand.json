@@ -1,0 +1,13 @@
+{
+  "assessed": [
+    { "index": 0, "likelihood": "High", "impact": "High", "comment": "[Sample] Very plausible given three departments each trust their own numbers." },
+    { "index": 1, "likelihood": "Medium", "impact": "Medium", "comment": "Budget overruns are common, but a phased plan limits the damage." },
+    { "index": 2, "likelihood": "Low", "impact": "High", "comment": "Possible, but the timeline has some slack." }
+  ],
+  "added": [
+    { "cause": "The executive sponsor moved on mid-project and no one else championed it.", "likelihood": "Medium", "impact": "High", "why": "[Sample] Sponsorship sits with one person and the project runs past the next reorganization." },
+    { "cause": "The new reports were accurate but nobody used them; teams kept their own spreadsheets.", "likelihood": "High", "impact": "High", "why": "The plan has no adoption or change-management step." },
+    { "cause": "Data quality in one source system was far worse than assumed.", "likelihood": "Medium", "impact": "Medium", "why": "No data profiling is planned before integration." }
+  ],
+  "note": "[Sample] Your causes focus on delivery (time, budget, agreement). The ones you missed are mostly about people and adoption after go-live."
+}

@@ -1,0 +1,21 @@
+{
+  "_sequence_note": "Sample mode: the first check fails two items; the second passes everything.",
+  "_sequence": [
+    { "checks": [
+        { "key": "upfront", "pass": false, "comment": "[Sample] The recommendation only appears in the third sentence, after background the CEO already knows." },
+        { "key": "reason", "pass": true, "comment": "Clear: one trusted set of numbers for the board." },
+        { "key": "ask", "pass": true, "comment": "Explicit: approve phase one by the end of the month." },
+        { "key": "plain", "pass": false, "comment": "“ETL pipeline” and “semantic layer” mean nothing to this reader." },
+        { "key": "faithful", "pass": true, "comment": "Matches the full solution, including the cost cap." } ],
+      "jargon": ["ETL pipeline", "semantic layer"],
+      "overall": "[Sample] Lead with the recommendation and drop the technical terms; the rest works." },
+    { "checks": [
+        { "key": "upfront", "pass": true, "comment": "[Sample] The recommendation is now the first sentence." },
+        { "key": "reason", "pass": true, "comment": "Clear and in the CEO's terms." },
+        { "key": "ask", "pass": true, "comment": "Explicit decision and date." },
+        { "key": "plain", "pass": true, "comment": "Plain throughout." },
+        { "key": "faithful", "pass": true, "comment": "Consistent with the full solution." } ],
+      "jargon": [],
+      "overall": "[Sample] Ready to send." }
+  ]
+}

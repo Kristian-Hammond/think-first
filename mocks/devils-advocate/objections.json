@@ -1,0 +1,7 @@
+{
+  "objections": [
+    { "challenger": "Skeptical engagement partner", "role": "Has seen this kind of project fail before", "objection": "[Sample – sample mode ignores what you typed.] You're asking three department heads to agree on definitions in two weeks. They've disagreed for years. What makes you think a workshop changes that?", "target": "Step 1 – definitions" },
+    { "challenger": "The client’s CFO", "role": "Owns the budget", "objection": "Where's the money coming from? Nothing here says who pays, and the budget looks thin for three integrations.", "target": "Cost" },
+    { "challenger": "Head of operations", "role": "Their teams build today's spreadsheets", "objection": "My people will keep their own spreadsheets whatever you build. What actually stops that?", "target": "Adoption" }
+  ]
+}

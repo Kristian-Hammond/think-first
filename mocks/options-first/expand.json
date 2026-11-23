@@ -1,0 +1,40 @@
+{
+  "titles": [
+    "Build a central data store",
+    "Fix definitions and ownership",
+    "Outsource reporting"
+  ],
+  "added": {
+    "title": "Consolidate onto one system",
+    "description": "[Sample] Retire two of the three source systems and run the business on the one Finance trusts.",
+    "why_different": "Removes the cause of conflicting numbers instead of reconciling them.",
+    "source": "Consolidate or simplify",
+    "viewpoint": "The board"
+  },
+  "criteria": [
+    {
+      "id": "cost",
+      "name": "Cost",
+      "description": "Lower total cost over two years scores higher.",
+      "weight": "High"
+    },
+    {
+      "id": "speed",
+      "name": "Speed to results",
+      "description": "Reliable board numbers sooner scores higher.",
+      "weight": "High"
+    },
+    {
+      "id": "durability",
+      "name": "Durability",
+      "description": "Stops the problem coming back.",
+      "weight": "Medium"
+    },
+    {
+      "id": "acceptance",
+      "name": "Acceptance",
+      "description": "Department heads are likely to support it.",
+      "weight": "Medium"
+    }
+  ]
+}

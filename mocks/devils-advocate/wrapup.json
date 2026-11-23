@@ -1,0 +1,17 @@
+{
+  "overall": "[Sample] Your solution held up well once you anchored it to the CFO's mandate. The lasting weakness is adoption: it's only covered because you strengthened your answer under pressure, so build that into the plan itself.",
+  "strengths": [
+    "A clear funding source and a phase gate make the cost case credible.",
+    "Using the sponsor's mandate and a tie-break rule makes the definitions step realistic.",
+    "You explained why a single data store is needed rather than patching one system."
+  ],
+  "exposed": [
+    "Adoption depends on a switch-off date that isn't in the written plan yet.",
+    "The integration timeline wasn't challenged here but is still optimistic."
+  ],
+  "changes": [
+    "Add a dated switch-off for the old spreadsheets to the plan.",
+    "Name the tie-break rule for definitions in step 1.",
+    "Add a short data-profiling step before integration starts."
+  ]
+}

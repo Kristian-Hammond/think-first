@@ -1,0 +1,6 @@
+{
+  "reader": "The CEO",
+  "why": "[Sample – sample mode ignores what you typed.] She decides whether to fund the work and must defend the numbers to the board.",
+  "needs": ["What you recommend and what it costs", "Why it fixes the board's trust problem", "What she must decide, and by when"],
+  "doesnt_need": ["How the data store is built", "The list of source systems and tools"]
+}

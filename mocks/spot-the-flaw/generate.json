@@ -1,0 +1,51 @@
+{
+  "solution": {
+    "summary": "[Sample response – sample mode ignores what you typed.] Consolidate the client's reporting onto a single data platform within six weeks, then agree metric definitions once the platform is live. This gives leadership one trusted set of numbers quickly at modest cost.",
+    "steps": [
+      "Select and license a cloud data platform in the first week.",
+      "Connect all three source systems to the platform by the end of week three.",
+      "Rebuild the board reports on the new platform in weeks four to six.",
+      "Agree metric definitions with the department heads once the new reports are live.",
+      "Budget $150,000 in total: $90,000 for licenses, $40,000 for integration and $30,000 for report rebuilding."
+    ]
+  },
+  "flaws": [
+    {
+      "id": "f1",
+      "quote": "Agree metric definitions with the department heads once the new reports are live.",
+      "type": "Wrong sequencing",
+      "explanation": "Definitions are the root cause of the conflicting numbers; agreeing them after the build means the new platform reproduces the same inconsistencies.",
+      "correction": "Agree metric definitions first, before connecting systems or rebuilding reports."
+    },
+    {
+      "id": "f2",
+      "quote": "$90,000 for licenses, $40,000 for integration and $30,000 for report rebuilding",
+      "type": "Numbers don't add up",
+      "explanation": "The parts add up to $160,000, not the $150,000 total stated.",
+      "correction": "Either state a $160,000 budget or reduce one of the components by $10,000."
+    },
+    {
+      "id": "f3",
+      "quote": "Connect all three source systems to the platform by the end of week three.",
+      "type": "Unrealistic timeline or cost",
+      "explanation": "Integrating three systems with conflicting data in two weeks is very unlikely, especially before definitions are agreed.",
+      "correction": "Allow six to eight weeks for integration, starting with the system of record for board metrics."
+    }
+  ],
+  "look_for": [
+    "[Sample] How the work is phased, and what has to happen before what",
+    "Whether the budget figures are internally consistent",
+    "Whether the timeline is realistic for the work described",
+    "Whether the choice of platform fits a mid-sized client"
+  ],
+  "corrected_solution": {
+    "summary": "[Sample] Agree the board's metric definitions first, then consolidate reporting onto a single data platform in phases. This gives leadership one trusted set of numbers without rebuilding the old inconsistencies.",
+    "steps": [
+      "Agree metric definitions with the department heads in the first two weeks.",
+      "Select and license a cloud data platform.",
+      "Connect the three source systems over six to eight weeks, starting with the system of record for board metrics.",
+      "Rebuild the board reports on the new platform using the agreed definitions.",
+      "Budget $160,000 in total: $90,000 for licenses, $40,000 for integration and $30,000 for report rebuilding."
+    ]
+  }
+}

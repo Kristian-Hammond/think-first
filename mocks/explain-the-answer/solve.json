@@ -1,0 +1,25 @@
+{
+  "solution": {
+    "summary": "[Sample response – sample mode ignores what you typed.] Fix the board-level numbers first with a short, manual reconciliation, then build a single reporting data store in a second phase once metric definitions and owners are agreed.",
+    "steps": [
+      "Agree on the 10–15 metrics the board relies on, with one definition each.",
+      "Name a client-side owner for each metric.",
+      "Reconcile those metrics manually for the next board pack.",
+      "Build a single reporting data store fed by the three systems.",
+      "Move the board pack onto the new data store and retire the manual process."
+    ]
+  },
+  "reasoning": [
+    "Definitions come first because the three systems disagree mainly on what each metric means, not on the raw data.",
+    "Owners are named early so data quality doesn't slip again once the project team leaves.",
+    "A manual reconciliation is a stopgap that protects the fixed board deadline without waiting for new technology.",
+    "The data store comes second because building it before definitions are agreed would bake the inconsistencies into the new system.",
+    "Retiring the manual process at the end avoids running two versions of the truth."
+  ],
+  "questions": [
+    { "id": "q1", "question": "Why does the solution agree on metric definitions before building anything?", "answer": "Because the systems mainly disagree on what each metric means; building first would carry those inconsistencies into the new system.", "key_points": ["definitions are the root cause", "building first would bake in inconsistencies"] },
+    { "id": "q2", "question": "What is the manual reconciliation in step 3 protecting against?", "answer": "Missing the fixed board deadline while the longer-term data store is still being built.", "key_points": ["board deadline", "stopgap until phase two"] },
+    { "id": "q3", "question": "Why name an owner for each metric?", "answer": "So someone stays accountable for data quality after the project ends, preventing the problem from returning.", "key_points": ["accountability", "sustains quality after the project"] },
+    { "id": "q4", "question": "Why does the last step retire the manual process?", "answer": "To avoid two competing versions of the numbers once the data store is live.", "key_points": ["single version of the truth"] }
+  ]
+}

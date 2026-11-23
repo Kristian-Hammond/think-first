@@ -1,0 +1,8 @@
+{
+  "found": [
+    { "flaw_id": "f1", "flag_id": "g1", "reasoning_ok": true, "comment": "[Sample] Yes – definitions have to come first or the new platform inherits the old conflicts." },
+    { "flaw_id": "f2", "flag_id": "g2", "reasoning_ok": false, "comment": "Right place, but the issue is that the parts add up to $160,000, not that the total is too low." }
+  ],
+  "false_alarms": [],
+  "overall": "[Sample] Good catch on the sequencing, which is the most serious flaw. You missed the unrealistic integration timeline in step 2 – always ask whether durations are plausible for the work described."
+}
