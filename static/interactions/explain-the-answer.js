@@ -17,7 +17,6 @@
   const ID = 'explain-the-answer';
   const { el } = App;
   const STEPS = ['Describe the problem', 'Explain the solution', 'Download'];
-  const ACCEPT = '.pdf,.docx,.pptx,.xlsx,.txt,.md,.markdown,.csv,.tsv,.json,.html,.htm';
 
   const S = {
     stage: 'problem',     // 'problem' | 'explain'
@@ -90,57 +89,15 @@
       oninput: e => { S.problem = e.target.value; } });
     box.value = S.problem;
 
-    const input = el('input', { type: 'file', multiple: true, accept: ACCEPT, class: 'file-input',
-      onchange: e => { addFiles(e.target.files); e.target.value = ''; } });
-    const drop = el('div', { class: 'dropzone small',
-      onclick: () => input.click(),
-      ondragover: e => { e.preventDefault(); drop.classList.add('over'); },
-      ondragleave: () => drop.classList.remove('over'),
-      ondrop: e => { e.preventDefault(); drop.classList.remove('over'); addFiles(e.dataTransfer.files); },
-    },
-      el('div', { class: 'drop-title' }, 'Drop files here, or click to choose'),
-      el('div', { class: 'hint' }, 'PDF, Word, PowerPoint, Excel, text or Markdown'),
-      input);
-
     return el('div', {},
       el('section', { class: 'card' },
         el('label', { class: 'label' }, 'The problem'),
-        App.withFileLoader(box)),
-      el('section', { class: 'card' },
-        el('h2', {}, 'Supporting files (optional)'),
-        el('p', { class: 'hint' }, 'Add documents about the company or industry for the AI to take into account.'),
-        drop,
-        S.uploads ? App.spinner(`Reading ${S.uploads} file${S.uploads > 1 ? 's' : ''}…`) : null,
-        S.uploadErrors.length ? el('div', { class: 'note' }, S.uploadErrors.map(u =>
-          el('div', {}, el('strong', {}, u.name + ': '), u.error))) : null,
-        S.docs.length ? el('div', { class: 'doc-list' }, S.docs.map(d => el('div', { class: 'doc' },
-          el('div', { class: 'doc-main' },
-            el('div', { class: 'doc-name' }, d.name),
-            el('div', { class: 'hint' }, `About ${words(d.chars)} words`, d.note ? ' · ' + d.note : '')),
-          el('div', { class: 'doc-actions' },
-            el('button', { class: 'btn link danger', disabled: S.busy, onclick: () => {
-              S.docs = S.docs.filter(x => x !== d); render(); } }, 'Remove'))))) : null),
+        App.withFileLoader(box),
+        el('div', { class: 'materials-row' },
+          el('div', { class: 'mini-label' }, 'Supporting materials (optional)'),
+          App.materialsPicker(S, render, { disabled: S.busy, hint: 'Add documents about the company or industry for the AI to take into account when it writes the solution.' }))),
       el('div', { class: 'actions' },
         el('button', { class: 'btn primary', disabled: S.busy || S.uploads > 0, onclick: generate }, 'Generate a solution')));
-  }
-
-  async function addFiles(fileList) {
-    const files = Array.from(fileList || []);
-    if (!files.length) return;
-    S.uploadErrors = [];
-    S.uploads += files.length;
-    render();
-    await Promise.all(files.map(async file => {
-      try {
-        const out = await App.extractFile(file);
-        S.docs.push({ name: file.name, text: out.text, chars: out.chars, note: out.note || '' });
-      } catch (e) {
-        S.uploadErrors.push({ name: file.name, error: e.message });
-      } finally {
-        S.uploads -= 1;
-        render();
-      }
-    }));
   }
 
   function generate() {

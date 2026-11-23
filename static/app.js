@@ -159,6 +159,128 @@ const App = (() => {
     return el('div', { class: 'with-loader' }, textarea, el('div', { class: 'loader-row' }, btn, status, input));
   }
 
+  /* ---------- "Add Materials": supporting documents in a pop-up window ---------- */
+
+  const MATERIAL_TYPES = '.pdf,.docx,.pptx,.xlsx,.txt,.md,.markdown,.csv,.tsv,.json,.html,.htm';
+
+  /*
+   * A button that opens an upload window, plus a list of what's attached.
+   * store: an object the interaction owns, with docs (array), uploads (number), uploadErrors (array).
+   *        Each doc is { name, text, chars, note }.
+   * onChange: called whenever the attached materials change, so the page can re-render.
+   */
+  function materialsPicker(store, onChange, { disabled = false, hint = '' } = {}) {
+    store.docs = store.docs || [];
+    store.uploads = store.uploads || 0;
+    store.uploadErrors = store.uploadErrors || [];
+    const words = n => Math.max(1, Math.round(n / 6)).toLocaleString();
+    let overlay = null;
+
+    function remove(d) {
+      store.docs = store.docs.filter(x => x !== d);
+      refresh();
+    }
+
+    function refresh() {
+      if (overlay) renderDialog();
+      onChange();
+    }
+
+    async function addFiles(fileList) {
+      const files = Array.from(fileList || []);
+      if (!files.length) return;
+      store.uploadErrors = [];
+      store.uploads += files.length;
+      refresh();
+      await Promise.all(files.map(async file => {
+        try {
+          const out = await extractFile(file);
+          store.docs.push({ name: file.name, text: out.text, chars: out.chars, note: out.note || '' });
+        } catch (e) {
+          store.uploadErrors.push({ name: file.name, error: e.message });
+        } finally {
+          store.uploads -= 1;
+          refresh();
+        }
+      }));
+    }
+
+    function docRow(d) {
+      const preview = el('div', { class: 'doc-preview prewrap', hidden: true },
+        d.text.slice(0, 1200) + (d.text.length > 1200 ? '…' : ''));
+      return el('div', { class: 'doc' },
+        el('div', { class: 'doc-main' },
+          el('div', { class: 'doc-name' }, d.name),
+          el('div', { class: 'hint' }, `About ${words(d.chars)} words`, d.note ? ' · ' + d.note : '')),
+        el('div', { class: 'doc-actions' },
+          el('button', { class: 'btn link', onclick: e => {
+            preview.hidden = !preview.hidden;
+            e.target.textContent = preview.hidden ? 'Preview' : 'Hide preview';
+          } }, 'Preview'),
+          el('button', { class: 'btn link danger', onclick: () => remove(d) }, 'Remove')),
+        preview);
+    }
+
+    function renderDialog() {
+      const input = el('input', { type: 'file', multiple: true, accept: MATERIAL_TYPES, class: 'file-input',
+        onchange: e => { addFiles(e.target.files); e.target.value = ''; } });
+      const drop = el('div', { class: 'dropzone',
+        onclick: () => input.click(),
+        ondragover: e => { e.preventDefault(); drop.classList.add('over'); },
+        ondragleave: () => drop.classList.remove('over'),
+        ondrop: e => { e.preventDefault(); drop.classList.remove('over'); addFiles(e.dataTransfer.files); },
+      },
+        el('div', { class: 'drop-title' }, 'Drop files here, or click to choose'),
+        el('div', { class: 'hint' }, 'PDF, Word (.docx), PowerPoint (.pptx), Excel (.xlsx), text, Markdown, CSV or HTML'),
+        input);
+      overlay.querySelector('.modal-body').replaceChildren(...[
+        hint ? el('p', { class: 'intro' }, hint) : null,
+        drop,
+        store.uploads ? spinner(`Reading ${store.uploads} file${store.uploads > 1 ? 's' : ''}…`) : null,
+        store.uploadErrors.length ? el('div', { class: 'note' }, store.uploadErrors.map(u =>
+          el('div', {}, el('strong', {}, u.name + ': '), u.error))) : null,
+        store.docs.length ? el('div', { class: 'doc-list' }, store.docs.map(docRow))
+          : el('p', { class: 'hint' }, 'No materials added yet.'),
+      ].filter(Boolean));
+      const done = overlay.querySelector('.modal-done');
+      done.disabled = store.uploads > 0;
+      done.textContent = store.uploads > 0 ? 'Reading…' : 'Done';
+    }
+
+    function close() {
+      if (!overlay || store.uploads > 0) return;
+      overlay.remove();
+      overlay = null;
+      document.removeEventListener('keydown', onKey);
+      onChange();
+    }
+    function onKey(e) { if (e.key === 'Escape') close(); }
+
+    function open() {
+      overlay = el('div', { class: 'modal-overlay', onclick: e => { if (e.target === overlay) close(); } },
+        el('div', { class: 'modal', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'Add materials' },
+          el('div', { class: 'modal-head' },
+            el('h2', {}, 'Add materials'),
+            el('button', { class: 'btn link', 'aria-label': 'Close', onclick: close }, '✕')),
+          el('div', { class: 'modal-body' }),
+          el('div', { class: 'modal-foot' },
+            el('button', { class: 'btn primary modal-done', onclick: close }, 'Done'))));
+      document.body.append(overlay);
+      document.addEventListener('keydown', onKey);
+      renderDialog();
+    }
+
+    const n = store.docs.length;
+    return el('div', { class: 'materials' },
+      el('div', { class: 'materials-head' },
+        el('button', { type: 'button', class: 'btn', disabled, onclick: open },
+          n ? `Add Materials (${n} attached)` : 'Add Materials'),
+        store.uploads ? el('span', { class: 'hint' }, 'Reading files…') : null),
+      n ? el('div', { class: 'chips materials-list' }, store.docs.map(d =>
+        el('span', { class: 'chip static attached' }, d.name,
+          el('button', { class: 'chip-x', title: 'Remove', disabled, onclick: () => remove(d) }, '✕')))) : null);
+  }
+
   /* ---------- Word download ---------- */
 
   function today() {
@@ -290,5 +412,5 @@ const App = (() => {
   }
 
   return { el, callLLM, pageHeader, stepper, spinner, errorBox, scrollToTop,
-    today, problemTitle, docFileName, downloadDoc, extractFile, withFileLoader, downloadButton, register, start };
+    today, problemTitle, docFileName, downloadDoc, extractFile, withFileLoader, materialsPicker, downloadButton, register, start };
 })();
