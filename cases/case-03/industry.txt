@@ -1,0 +1,13 @@
+CASE 3  /  INDUSTRY BRIEF
+Consumer Financial Services Industry
+Customer Attrition at a Financial Services Firm
+Industry structure
+Consumer financial-services firms compete on pricing, trust, product breadth, convenience, and service quality. Customers may hold multiple products with different providers, and long relationships do not necessarily imply high switching costs. Regulations, disclosure requirements, and data-security expectations raise the cost of changing products and processes.
+Market dynamics
+Digital account opening and comparison platforms have increased customer choice. Competitors may differentiate through fees, rates, tools, personalized advice, or bundled benefits. Customer needs also change after life events, income shifts, and changes in risk tolerance, creating attrition that may not be directly attributable to poor service.
+Customer economics
+Retention is valuable only when understood alongside customer profitability and lifetime value. Discounts or fee waivers may reduce departures but also erode margin, attract price-sensitive customers, or reward customers who would have stayed. Measures include churn by customer segment, product tenure, activity, acquisition channel, fee revenue, and cost to serve.
+Measurement challenges
+Satisfaction surveys often capture the views of customers who respond and may miss those who are disengaged. Customers can report high satisfaction with service while moving money for a better rate or because their needs have changed. Defining attrition consistently is difficult when customers can reduce balances or product use without closing accounts.
+Strategic questions
+Potential responses span product improvement, personalized outreach, pricing changes, retention offers, and improved onboarding. Strong analysis identifies which customers are leaving, why, what they are worth, and whether proposed interventions change behavior enough to justify their cost.

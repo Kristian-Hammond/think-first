@@ -1,0 +1,13 @@
+CASE 4  /  COMPANY BRIEF
+Company Profile — PrecisionCore Components
+Operational Bottlenecks at a Manufacturing Company
+Company at a glance
+PrecisionCore Components is a fictional mid-sized manufacturer of machined and assembled parts for industrial equipment makers. It operates one primary factory and two distribution sites. Its reputation rests on dependable quality and predictable delivery for customers who incorporate the parts into their own production schedules.
+Demand and performance
+Customer orders have risen 30% over the past year, while average delivery lead time has grown from three to six weeks. On-time delivery has declined and customer complaints have increased. Order growth is uneven across product families; some high-volume parts share production resources with smaller, customized orders.
+Production system
+Raw materials pass through machining, finishing, inspection, and assembly before shipment. Equipment capacity and staffing differ by stage, and production scheduling is coordinated through a mix of planning software and manual adjustments. Managers report frequent expediting and overtime, but do not agree on where most delays originate.
+Leadership perspectives
+The operations director proposes $15 million of additional production capacity, arguing that current facilities cannot support demand. The CFO questions whether changes to scheduling, changeovers, rework, and inventory flow could deliver comparable benefits for less capital. Sales leaders are concerned about losing major accounts if delays persist.
+Decision context
+Management needs a near-term delivery recovery plan and a defensible capital-investment decision. It has access to production logs, order histories, labor records, supplier performance, and quality data, although these have not yet been reconciled into a single view of throughput and constraints.

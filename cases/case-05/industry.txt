@@ -1,0 +1,13 @@
+CASE 5  /  INDUSTRY BRIEF
+Professional Services and Applied AI Industry
+Evaluating an AI Investment in a Professional Services Firm
+Industry structure
+Professional-services organizations sell expertise, judgment, client access, and reliable deliverables. Labor is a major cost, but client trust and quality often determine repeat business. Billing models range from time-based fees to fixed-price projects and retainers, which can create different incentives for productivity improvements.
+AI opportunity
+Generative AI can assist with searching documents, drafting summaries, synthesizing research, coding, and preparing first-pass reports. Benefits depend on task fit, information quality, workflow integration, and review requirements. Time saved on one activity may not translate directly into lower staffing costs or higher firm profit.
+Risk and governance
+Important risks include factual errors, confidential-data exposure, intellectual-property disputes, bias, inconsistent outputs, and overreliance by staff. Client contracts and sector-specific rules may limit allowable uses. Firms need suitable access controls, testing, human review, clear accountability, and processes for responding to incidents.
+Economics and change
+The total cost of AI adoption extends beyond licenses: integration, data preparation, security, training, support, and ongoing evaluation can be material. Productivity gains may be realized through faster delivery, greater capacity, better quality, or reduced effort; the choice affects pricing, staffing, and employee incentives.
+Strategic questions
+A realistic business case specifies target workflows, baseline costs, achievable adoption, quality thresholds, and how savings are captured. Pilots should compare outcomes with existing processes and include client experience, risk, and employee capability alongside efficiency.

@@ -1,0 +1,13 @@
+CASE 5  /  COMPANY BRIEF
+Company Profile — Alder & Gray Advisory
+Evaluating an AI Investment in a Professional Services Firm
+Company at a glance
+Alder & Gray Advisory is a fictional professional-services firm with 2,000 employees across strategy, operations, and financial advisory practices. It serves corporate and institutional clients through project teams that conduct research, analyze information, develop recommendations, and prepare client-facing reports.
+Proposed investment
+Senior leadership is considering a $20 million, three-year AI program covering enterprise tools, workflow integration, training, and governance. The proposal targets research, analysis, and report preparation. Its headline ambition is to reduce labor costs by 25% within three years, although the business case does not yet distinguish time saved from costs that can actually be removed.
+Operating model
+Projects are staffed through practice groups, with partners responsible for quality and client relationships. Engagements are sold using a mixture of time-based and fixed-fee arrangements. Staff frequently work with confidential documents and client-specific assumptions, and deliverables are reviewed by multiple levels of seniority.
+Stakeholder perspectives
+The CEO sees AI as a source of productivity and competitive advantage. Practice leaders worry about inaccurate analysis and changes in how junior staff develop expertise. The legal and security teams want controls before broad deployment, while client-facing partners question how customers will react to AI-supported work.
+Decision context
+The firm needs to determine which workflows merit automation, how to evaluate performance and risk, and what staffing or pricing changes are realistic. A credible recommendation would identify a staged rollout, accountability for approvals, metrics that matter to clients, and decision gates for further spending.

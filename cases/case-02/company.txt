@@ -1,0 +1,13 @@
+CASE 2  /  COMPANY BRIEF
+Company Profile — Northstar Workflow
+Market Entry for a Technology Company
+Company at a glance
+Northstar Workflow is a fictional U.S. B2B software company offering cloud-based workflow automation for mid-sized businesses. Its customers use the platform to route approvals, manage documents, and connect operational systems. It has built a strong domestic customer base but has no established European sales or service organization.
+Business model
+The company sells annual subscriptions priced by number of users and enabled features. Sales representatives handle larger accounts, while smaller customers are acquired through digital marketing and product trials. New customers typically need configuration, integrations, and some training; recurring subscription revenue depends on continued adoption.
+Expansion proposal
+Management proposes a launch in Germany, France, the United Kingdom, the Netherlands, and Spain at the same time. The total available expansion budget is $10 million over two years. The product interface is currently in English; support and sales are U.S.-based. The company has heard positive interest from several European prospects but has not conducted structured willingness-to-pay research.
+Internal capabilities
+Northstar has a mature software development team and experience serving U.S. mid-market buyers. Its security documentation and contracts were designed primarily for U.S. customers. The sales organization has limited experience with regional distributors, local procurement processes, or multilingual support.
+Decision context
+The board expects an evidence-based assessment of whether international growth is attractive and, if so, how to sequence it. Management needs a proposed market-selection framework, a testable go-to-market model, budget priorities, and explicit milestones for scaling or stopping the investment. No country-level forecast should be assumed to be reliable without validation.

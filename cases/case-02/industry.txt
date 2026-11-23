@@ -1,0 +1,13 @@
+CASE 2  /  INDUSTRY BRIEF
+European Enterprise Software Industry
+Market Entry for a Technology Company
+Industry structure
+Europe is a collection of distinct software markets rather than a single homogeneous buyer base. Enterprise demand varies by country, industry, company size, language, and procurement tradition. Buyers commonly assess functional fit, data protection, security assurances, integration requirements, local support, and vendor durability before signing contracts.
+Market dynamics
+U.S. software vendors can benefit from familiar cloud delivery models and common enterprise platforms, but face established European competitors and country-specific preferences. Sales cycles may depend on reseller relationships, local references, public procurement practices, and the ability to deliver demonstrations and support in the buyer’s language.
+Regulatory environment
+Privacy, cybersecurity, contracting, tax, and sector-specific rules can influence commercial design. The EU’s GDPR is relevant to personal-data processing, while obligations differ for particular industries and products. The United Kingdom and Switzerland require separate consideration from EU member states. Legal analysis depends on what the software actually does.
+Economics of entry
+Major costs include localization, sales and customer-success hiring, marketing, legal and security work, hosting architecture, and integrations. High recurring revenue can create attractive unit economics, but time to first contract and retention are critical. Country-level opportunity should be compared with customer acquisition cost and time to profitability.
+Strategic questions
+Potential entry routes include direct sales, channel partnerships, or a limited pilot in one market. Country selection should distinguish total market size from reachable demand and weigh speed of execution against the costs of supporting many markets at once.

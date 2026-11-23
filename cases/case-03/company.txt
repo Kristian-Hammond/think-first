@@ -1,0 +1,13 @@
+CASE 3  /  COMPANY BRIEF
+Company Profile — HarborPoint Financial
+Customer Attrition at a Financial Services Firm
+Company at a glance
+HarborPoint Financial is a fictional regional financial-services firm offering savings, investment, and financial-planning products to individuals and small businesses. It serves customers primarily through digital channels and a network of advisers. Leadership is concerned that account closures and declining balances are accelerating despite apparently favorable satisfaction results.
+Performance snapshot
+Over 18 months, annualized customer attrition increased from 8% to 12%, while the latest satisfaction survey still reports 88% favorable responses. The two figures reflect different measures and populations. Management has not yet established whether exits are concentrated in particular customer groups, product types, tenures, or acquisition channels.
+Operating model
+Customer service is centralized, but advisers control many individual client relationships. Product and pricing teams set rates and fees; marketing manages acquisition campaigns. Data sits in multiple systems, making it difficult to connect satisfaction responses, usage, balances, costs, and individual reasons for departure.
+Leadership perspectives
+The commercial director believes competitors’ lower prices explain the losses and favors broad discounts. The finance director worries that indiscriminate incentives would reduce earnings without changing long-term loyalty. Advisers report that some customers are consolidating accounts or moving to more convenient digital offerings.
+Decision context
+The executive team needs a retention strategy before the next planning cycle. It can consider targeted pricing, service or product changes, and new engagement programs, but wants a credible estimate of incremental retained value and a way to test what works before committing to large-scale discounts.

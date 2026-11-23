@@ -1,0 +1,13 @@
+CASE 1  /  COMPANY BRIEF
+Company Profile — Meridian Home & Living
+Declining Profitability at a Retail Chain
+Company at a glance
+Meridian Home & Living is a fictional U.S. retailer selling home goods, seasonal décor, and small furnishings. It operates 185 stores across 24 states and an online channel. Its brand promises a curated assortment at accessible prices. The business grew through new stores and a larger e-commerce offering, and headquarters is now evaluating the economics of that growth.
+Performance snapshot
+For this case, annual revenue has increased from $800 million to $920 million over two years (+15%), while operating profit has fallen from $50 million to $40 million (−20%). Online orders now represent roughly one-quarter of revenue, compared with less than one-fifth two years ago. These figures are case assumptions, not reported company results.
+Operating model
+Stores are organized into four geographic regions. Store managers make staffing decisions within centrally defined labor budgets. Merchandise and promotions are planned nationally, while a central distribution network supports stores and online fulfillment. Several stores now function as pickup and return points for online orders.
+Leadership perspectives
+The CEO attributes deteriorating results primarily to rising labor costs and has suggested cutting store staffing. Regional managers argue that thinner staffing would hurt conversion and service. Finance notes changes in freight and returns expense; merchandising points to stronger sales in lower-margin categories. No single explanation has been verified.
+Decision context
+Leadership wants an actionable plan for the next fiscal year that restores profitability without sacrificing the customer experience or long-term growth. The company can provide sales, staffing, inventory, expense, and customer-service data, but the quality and comparability of the data vary across channels and regions.

@@ -1,0 +1,13 @@
+CASE 4  /  INDUSTRY BRIEF
+Industrial Components Manufacturing Industry
+Operational Bottlenecks at a Manufacturing Company
+Industry structure
+Mid-sized industrial manufacturers compete on quality, price, reliability, and delivery performance. Operations frequently combine multiple production stages, shared equipment, specialized labor, and materials purchased from outside suppliers. A single constrained process can limit total output even when other production assets have available capacity.
+Demand and supply conditions
+Changes in order volume or product mix can create backlogs, especially when setup times vary or some components have long lead times. Suppliers, maintenance outages, and workforce availability affect schedules. Customers often require reliable delivery commitments and may impose penalties or shift future orders when delays persist.
+Operating economics
+Useful metrics include throughput, capacity by work center, overall equipment effectiveness, work in process, order cycle time, on-time delivery, scrap and rework, overtime, and unit contribution margin. Average plant utilization is not enough to locate a bottleneck; demand, process variability, and batch sizes must be examined together.
+Investment alternatives
+Adding equipment can relieve a true physical constraint but may not address scheduling, material shortages, quality defects, or changeover losses. Other options include process redesign, preventive maintenance, cross-training, supplier changes, selective outsourcing, and revised order prioritization. Each has different capital, labor, and customer implications.
+Strategic questions
+The central management challenge is to distinguish temporary overload from structural capacity shortages, determine which product lines create value, and improve delivery without creating excess long-term capacity if demand softens.
